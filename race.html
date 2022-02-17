@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div main-wrapper>
+			<h2>Race Registration</h2>
+			<form action="race">
+				<label for="name">First Name</label>
+				<input type="text" id="name" />
+				<div>
+					<label for="lastname">Last Name</label>
+					<input type="text" id="lastname" />
+				</div>
+
+				<input type="radio" id="form" />
+				<label for="form">Run 10km</label><br />
+
+				<input type="radio" id="form" />
+				<label for="form">Fun Run</label><br />
+
+				<input type="radio" id="form" />
+				<label for="form">Full Marathon </label>
+				<div>
+					<label for="email">Email</label>
+					<input type="email" id="email" required />
+				</div>
+				<div>
+					<label for="password">Password</label>
+					<input type="password" id="password" required />
+				</div>
+				<div class="container-btn">
+					<label for="age">Select age group</label>
+					<select name="age" id="age">
+						<option value="kids">under18</option>
+						<option value="ya">16-25</option>
+						<option value="adults">25-35</option></select
+					><br />
+					<button>Register</button>
+				</div>
+				<!-- input:radio
+            <input type="radio" name="" id=""> -->
+			</form>
+
+			
+			<div class="container">
+				<div>
+					<h2>My to do list</h2>
+					<input type="text" id="my-input" placeholder="Enter your task..."><label id="add-task" class="label-class">Add task</label>
+				</div>
+		
+		
+			</div>
+			<div class="wrapper">
+				<!-- <ul class="new-task">
+					<li><input type="text" class="task-input" readonly><button class="delete-task">Delete</button></li>
+				</ul> -->
+			</div>
+		</div>
+		<script src="main.js"></script>
+	</body>
+</html>

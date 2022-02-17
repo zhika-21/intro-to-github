@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+body {
+	background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-asian-games-break-through-the-self-exercise-athletes-exhibition-board-background-image_73597.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	font-size: 1rem;
+	line-height: 2;
+	font-family: "Poppins", sans-serif;
+}
+.main-wrapper {
+	margin: 20px auto;
+	width: 80%;
+}
+button {
+	background: rgba(253, 251, 251, 0.884);
+	padding: 10px 15px;
+	border: 1px solid rgb(243, 106, 72);
+	border-radius: 10px;
+	color: rgb(28, 60, 102);
+	font-size: 1rem;
+	font-weight: 900;
+	margin: 10px;
+}
+button:hover {
+	background-color: rgb(44, 89, 148);
+	color: white;
+}
+input,
+select {
+	border: solid 1px rgb(243, 106, 72);
+	padding: 5px 10px;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+#email {
+	margin-left: 60px;
+}
+
+#password {
+	margin-left: 28px;
+}
+
+h2 {
+	color: rgb(28, 60, 102);
+}
+/* tasks */
+.container {
+    max-width: 850px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    height: auto;
+    padding: 10px;
+}
+
+.container h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: rgb(219, 0, 248);
+    margin-right: 2rem;
+}
+
+#my-input {
+    width: 500px;
+    outline: none;
+    border-radius: 2rem;
+    color: #333;
+    padding: .65rem;
+}
+
+#add-task {
+    margin-left: 1.50rem;
+    cursor: pointer;
+    font-size: 1.50rem;
+	background-color: blueviolet;
+    color: white;
+    width: 100px;
+	border: 1px solid blueviolet;
+	padding: 10px;
+	border-radius: 40px;
+}
+
+
+
+.wrapper {
+    display: block;
+    margin: auto;
+    width: 600px;
+}
+
+ul {
+    list-style: none;
+    display: block;
+}
+
+li {
+    width: 600px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: cornsilk;
+    color: #333;
+    padding: 1.5rem;
+    margin: 20px;
+}
+
+.new-task {
+    display: inline-block;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new-task .task-input {
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.delete-task {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: rgb(245, 33, 217);
+}
+
+.delete-task:hover {
+    color: rgb(230, 215, 245);
+}
