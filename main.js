@@ -3,11 +3,21 @@ const btn = document.createElement('button')
 const parag = document.querySelector('.container-btn')
 parag.appendChild(btn)
 
+
 btn.innerText = "Sign In"
 //btn.style.color = "rgb(28, 60, 102)"
 
 btn.innerText = "button"
 btn.style.color = "red"
+
+
+
+btn.innerText = "Sign In"
+//btn.style.color = "rgb(28, 60, 102)"
+
+btn.innerText = "button"
+btn.style.color = "red"
+
 
 const registerBtn = document.querySelector('button')
 registerBtn.classList.add('registerBtn')
@@ -15,6 +25,7 @@ registerBtn.classList.add('registerBtn')
 registerBtn.addEventListener('click', ()=>{
     alert('You have successfully registered!')
 })
+
 
 
 
@@ -64,3 +75,4 @@ window.addEventListener("load", () => {
     })
 
 })
+

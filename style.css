@@ -48,6 +48,7 @@ select {
 h2 {
 	color: rgb(28, 60, 102);
 }
+
 /* tasks */
 .container {
     max-width: 850px;
@@ -138,3 +139,4 @@ li {
 .delete-task:hover {
     color: rgb(230, 215, 245);
 }
+
