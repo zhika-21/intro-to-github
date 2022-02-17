@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lato:wght@100;400&family=Montserrat&family=Poppins:ital@0;1&family=Quintessential&family=Work+Sans:wght@200;400&display=swap');
+
+body{
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-asian-games-break-through-the-self-exercise-athletes-exhibition-board-background-image_73597.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 1.4;
+    font-family: 'Work Sans', sans-serif;
+}
+button{
+    background: rgba(253, 251, 251, 0.884);
+    padding: 10px 15px;
+    border: 1px solid rgb(243, 106, 72);
+    border-radius: 10px;
+    color: rgb(28, 60, 102);  
+    font-size: large;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: rgb(44, 89, 148);
+    color: white;
+
+}
