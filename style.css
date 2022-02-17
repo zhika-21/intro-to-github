@@ -1,30 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lato:wght@100;400&family=Montserrat&family=Poppins:ital@0;1&family=Quintessential&family=Work+Sans:wght@200;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 
-body{
-    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-asian-games-break-through-the-self-exercise-athletes-exhibition-board-background-image_73597.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 1.6rem;
-    line-height: 1.4;
-    font-family: 'Work Sans', sans-serif;
+body {
+	background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-asian-games-break-through-the-self-exercise-athletes-exhibition-board-background-image_73597.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	font-size: 1rem;
+	line-height: 2;
+	font-family: "Poppins", sans-serif;
 }
-button{
-    background: rgba(253, 251, 251, 0.884);
-    padding: 10px 15px;
-    border: 1px solid rgb(243, 106, 72);
-    border-radius: 10px;
-    color: rgb(28, 60, 102);  
-    font-size: large;
-    margin-top: 10px;
+.main-wrapper {
+	margin: 20px auto;
+	width: 80%;
+}
+button {
+	background: rgba(253, 251, 251, 0.884);
+	padding: 10px 15px;
+	border: 1px solid rgb(243, 106, 72);
+	border-radius: 10px;
+	color: rgb(28, 60, 102);
+	font-size: 1rem;
+	font-weight: 900;
+	margin: 10px;
 }
 button:hover {
-    background-color: rgb(44, 89, 148);
-    color: white;
+	background-color: rgb(44, 89, 148);
+	color: white;
+}
+input,
+select {
+	border: solid 1px rgb(243, 106, 72);
+	padding: 5px 10px;
+	margin: 10px;
+	border-radius: 5px;
+}
 
+#email {
+	margin-left: 60px;
+}
+
+#password {
+	margin-left: 28px;
+}
+
+h2 {
+	color: rgb(28, 60, 102);
 }
