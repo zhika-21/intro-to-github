@@ -10,12 +10,38 @@ body {
 	font-size: 1rem;
 	line-height: 2;
 	font-family: "Poppins", sans-serif;
+    padding-left: 450px;
+}
+
+
+.navbar ul {
+    display: flex;
+    
+    
+}
+.navbar li{
+    width: 60px;
+    border-radius: 10px;
+    color: rgb(44, 89, 148);
+    background-color: aliceblue;
+    height: 20px;
+    font-weight: 150px;
+    margin-top: 0;
+    padding-top: 0;
+    
+    
+}
+.race{
+    color: rgb(28, 60, 102) ;
+    
+
 }
 .main-wrapper {
 	margin: 20px auto;
 	width: 80%;
+    
 }
-button {
+button, Login {
 	background: rgba(253, 251, 251, 0.884);
 	padding: 10px 15px;
 	border: 1px solid rgb(243, 106, 72);
@@ -47,16 +73,17 @@ select {
 
 h2 {
 	color: rgb(28, 60, 102);
+    font-size:xx-large
 }
 
 /* tasks */
 .container {
     max-width: 850px;
     display: flex;
-    /* flex-direction: column; */
+     flex-direction: column; 
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    margin-left: 60px;
     height: auto;
     padding: 10px;
 }
