@@ -9,9 +9,36 @@
 		<title>Document</title>
 	</head>
 	<body>
+        <!-- <div class="main">
+        <div class="navbar">
+                <nav>
+         <ul>
+             <li>
+                 <a href="#">Services</a>
+              </li>
+             <li>
+              <a href="#">Portfolio</a>
+              </li>
+             <li>
+                 <a href="#">About</a> 
+              </li>
+              <li>
+                 <a href="#">Team</a> 
+              </li>
+             <li><a href="#">Contact</a></li></ul>
+         </ul>
+     </nav>
+     </div> -->
+
+    
+ 
 		<div main-wrapper>
 			<h2>Race Registration</h2>
 			<a href="contact.html">Contact Us</a>
+			<h2>Online Race Registration</h2>
+            <p class="race"><b>It's free and as easy as 1, 2, 3.<br>
+                Create your account, design your<br>
+                form, and grow your race.</b></p>
 			<form action="race">
 				<label for="name">First Name</label>
 				<input type="text" id="name" />
@@ -19,6 +46,7 @@
 					<label for="lastname">Last Name</label>
 					<input type="text" id="lastname" />
 				</div>
+                
 
 				<input type="radio" id="form" />
 				<label for="form">Run 10km</label><br />
@@ -40,7 +68,7 @@
 					<label for="age">Select age group</label>
 					<select name="age" id="age">
 						<option value="kids">under18</option>
-						<option value="ya">16-25</option>
+						<option value="ya">20-25</option>
 						<option value="adults">25-35</option></select
 					><br />
 					<button>Register</button>
@@ -50,22 +78,29 @@
             <input type="radio" name="" id=""> -->
 			</form>
 
-			
+
 			<div class="container">
 				<div>
 					<h2>My to do list</h2>
-					<input type="text" id="my-input" placeholder="Enter your task..."><label id="add-task" class="label-class">Add task</label>
+					<input
+						type="text"
+						id="my-input"
+						placeholder="Enter your task..."
+					/><label id="add-task" class="label-class">Add task</label>
 				</div>
+
+			
+			
 		
-		
+
 			</div>
 			<div class="wrapper">
 				<!-- <ul class="new-task">
 					<li><input type="text" class="task-input" readonly><button class="delete-task">Delete</button></li>
 				</ul> -->
 			</div>
-
 		</div>
+    </div>
 		<script src="main.js"></script>
 	</body>
 </html>
